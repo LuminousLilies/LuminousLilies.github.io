@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'LuminousLilies.github.io',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'LuminousLilies',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
