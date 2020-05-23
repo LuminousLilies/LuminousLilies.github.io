@@ -1,3 +1,6 @@
 [submodule "blog"]
 	path = blog
 	url = git@github.com:LuminousLilies/blog.git
+[submodule "docs"]
+	path = docs
+	url = git@github.com:LuminousLilies/recipes.git
