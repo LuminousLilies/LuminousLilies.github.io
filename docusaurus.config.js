@@ -16,13 +16,13 @@ module.exports = {
       links: [
         {
           to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          activeBasePath: 'recipes',
+          label: 'Recipes',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/LuminousLilies',
           label: 'GitHub',
           position: 'right',
         },
@@ -32,7 +32,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Recipes',
           items: [
             {
               label: 'Style Guide',
@@ -45,37 +45,29 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
+          title: 'About Me',
           items: [
             {
               label: 'Blog',
               to: 'blog',
+            }
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/LuminousLily',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/LuminousLilies/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2020 LuminousLily, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -83,18 +75,15 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/LuminousLilies/LuminousLilies.github.io',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/LuminousLilies/LuminousLilies.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
