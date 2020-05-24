@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/',
+          to: 'docs/breakfast/mochiko-pancakes',
           activeBasePath: 'recipes',
           label: 'Recipes',
           position: 'left',
@@ -35,12 +35,8 @@ module.exports = {
           title: 'Recipes',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Breakfast',
+              to: 'docs/breakfast/mochiko-pancakes',
             },
           ],
         },
@@ -75,7 +71,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          homePageId: 'doc1',
+          homePageId: 'breakfast/mochiko-pancakes',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/LuminousLilies/LuminousLilies.github.io',
