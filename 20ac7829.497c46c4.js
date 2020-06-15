@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{107:function(e){e.exports=JSON.parse('{"docsSidebars":{"someSidebar":[{"type":"category","label":"Breakfast","items":[{"type":"link","label":"Mochiko Pancakes","href":"/docs/breakfast/mochiko-pancakes"}]}]},"permalinkToSidebar":{"/docs/breakfast/mochiko-pancakes":"someSidebar"}}')}}]);
